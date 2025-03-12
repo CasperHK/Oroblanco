@@ -8,3 +8,16 @@ port = 3000
 [frontend]
 framework = "next"
 dir = "frontend"
+
+[database]
+type = "postgres"
+url = "postgres://user:pass@localhost:5432/oroblanco_db"
+username = "user"
+password = "pass"
+maxPoolSize = 10
+
+[auth]
+authType = "jwt"
+secretKey = "your-secure-secret-key-here"
+tokenExpiry = 3600
+issuer = "oroblanco"

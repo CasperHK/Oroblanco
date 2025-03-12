@@ -9,3 +9,6 @@ Oroblanco is a full-stack web development framework built in Ballerina, designed
 5. **Ecosystem Growth:** Foster a modular, extensible framework with community contributions.
 
 ## Getting Started
+
+## Project Type
+[Ballerina Web Project](https://ballerina.io/)
